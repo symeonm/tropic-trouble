@@ -1,4 +1,12 @@
-$_main_color: #242424;
-$_main_bg_color: rgba(255, 255, 255, 0.87);
-$_header_color: #747bff;
-$_header_accent_color: red;
+$_green_bg_color: #b8df54;
+$_yellow_bg_color: #fbec3f;
+$_white_bg_color: #ffffff;
+$_gradient_bg_color: linear-gradient(
+  245.63deg,
+  rgb(85, 190, 247) -7.899%,
+  rgb(251, 236, 63) 89.033%
+);
+$_black_text_color: #000000;
+
+$_heading_font: 'Ubuntu', sans-serif;
+$_text_font: 'Inter', sans-serif;
