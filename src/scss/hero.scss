@@ -1,7 +1,7 @@
 .hero-section.section {
-  margin-top: 114px;
+  padding-top: 114px;
   @include media(desktop) {
-    margin-top: 140px;
+    padding-top: 140px;
   }
 }
 
