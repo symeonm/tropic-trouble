@@ -56,6 +56,19 @@
     margin: 0 auto;
     width: 270px;
     height: 80px;
+    border-radius: 12px;
+    background-color: #100f0d;
+    border: 2.5px solid #a2a2a1;
+    transition: $_transition;
+
+    &:hover,
+    &:focus {
+      border: 2.5px solid #ffb84c;
+    }
+    &:active {
+      background-color: #b88538;
+      border: 2.5px solid #a2a2a1;
+    }
   }
 
   &__img {
