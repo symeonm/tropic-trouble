@@ -39,5 +39,36 @@
       width: 427px;
       height: 614px;
     }
+
+    &__img {
+      width: 260px;
+      height: 304px;
+      margin-bottom: 20px;
+      @include media(desktop) {
+        width: 347px;
+        height: 317px;
+      }
+    }
+
+    &__title {
+      color: $_black_text_color;
+      font-family: $_heading_font;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.64px;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    &__text {
+      color: $_black_text_color;
+      font-family: $_text_font;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.2;
+      letter-spacing: -0.38px;
+      text-align: center;
+    }
   }
 }
