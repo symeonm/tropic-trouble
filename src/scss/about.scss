@@ -1,0 +1,32 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  @include media(desktop) {
+    gap: 40px;
+  }
+
+  &__title {
+    color: $_black_text_color;
+    font-family: $_heading_font;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: -1px;
+  }
+
+  &__img {
+    width: 340px;
+    height: 450px;
+  }
+
+  &__text {
+    color: $_black_text_color;
+    font-family: $_text_font;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.19;
+  }
+}
