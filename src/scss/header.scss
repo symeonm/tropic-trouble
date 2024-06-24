@@ -1,7 +1,51 @@
+.header-section {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: $_white_bg_color;
+}
+
 .header {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  @include media(mobile) {
+    width: 375px;
+  }
+  @include media(desktop) {
+    padding: 21px 50px;
+    width: 1440px;
+  }
+
+  &__logo {
+    width: 60px;
+    height: 44px;
+    @include media(desktop) {
+      width: 82px;
+      height: 58px;
+    }
+  }
 
   &__menu {
     display: flex;
+    gap: 52px;
+    padding: 0 33px;
+    @include media(to-desktop) {
+      display: none;
+    }
+
+    .link {
+      padding: 14.5px 0;
+      color: $_black_text_color;
+      font-family: $_text_font;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.16;
+    }
   }
 }

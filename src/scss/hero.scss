@@ -1,3 +1,10 @@
+.hero-section.section {
+  margin-top: 114px;
+  @include media(desktop) {
+    margin-top: 140px;
+  }
+}
+
 .hero-card {
   background-color: $_yellow_bg_color;
   padding: 40px 20px;
