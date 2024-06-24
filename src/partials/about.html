@@ -1,14 +1,21 @@
 <section id="about" class="section">
   <div class="container about">
     <h2 class="about__title">About this game</h2>
-    <img
-      class="about__img"
-      srcset="./img/deck-hero@1x.webp 1x, ./img/deck-hero@2x.webp 2x"
-      src="./img/deck-hero@1x.webp"
-      alt="game screen"
-      width="283"
-      height="351"
-    />
+    <picture class="about__img">
+      <source
+        media="(min-width: 1440px)"
+        srcset="./img/deck-about@1x.webp 1x, ./img/deck-about@2x.webp 2x"
+        width="998"
+        height="444"
+      />
+      <source
+        media="(max-width: 1439px)"
+        srcset="./img/mob-about@1x.webp 1x, ./img/mob-about@2x.webp 2x"
+        width="340"
+        height="450"
+      />
+      <img src="./img/deck-hero@1x.webp" alt="game screen" />
+    </picture>
     <p class="about__text">
       In "Tropic Trouble," players find themselves stranded on a deserted
       island, tasked with building their dream paradise by solving match-3

@@ -1,4 +1,4 @@
-.about {
+.about.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,8 +6,10 @@
   gap: 20px;
   @include media(desktop) {
     gap: 40px;
+    width: 998px;
   }
-
+}
+.about {
   &__title {
     color: $_black_text_color;
     font-family: $_heading_font;
@@ -15,11 +17,20 @@
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: -1px;
+    @include media(desktop) {
+      font-size: 60px;
+      line-height: 1.33;
+      letter-spacing: -1.92px;
+    }
   }
 
   &__img {
     width: 340px;
     height: 450px;
+    @include media(desktop) {
+      width: 998px;
+      height: 444px;
+    }
   }
 
   &__text {
@@ -28,5 +39,10 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 1.19;
+    @include media(desktop) {
+      font-size: 32px;
+      line-height: 1.38;
+      letter-spacing: -0.8px;
+    }
   }
 }
