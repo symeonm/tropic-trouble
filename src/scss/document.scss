@@ -29,6 +29,10 @@
     line-height: 1.2;
     letter-spacing: -0.32px;
     text-align: left;
+
+    a {
+      text-decoration: underline;
+    }
     @include media(desktop) {
       font-size: 40px;
       letter-spacing: -0.64px;
