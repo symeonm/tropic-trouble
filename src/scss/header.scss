@@ -123,6 +123,9 @@
     border-radius: 0px 0px 0px 12px;
     background-color: $_white_bg_color;
     transition: $_transition;
+    @include media(desktop) {
+      display: none;
+    }
 
     &__list {
       display: flex;
