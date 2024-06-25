@@ -1,0 +1,74 @@
+.footer.container {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  @include media(desktop) {
+    padding: 24px 65px;
+  }
+}
+
+.footer-section {
+  .footer {
+    background-color: $_yellow_bg_color;
+    border-radius: 24px 24px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    @include media(desktop) {
+      flex-direction: row;
+      gap: 157px;
+    }
+
+    &__wraper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      @include media(desktop) {
+        flex-direction: row-reverse;
+        gap: 157px;
+      }
+    }
+
+    &__logo {
+      width: 80px;
+      height: 57px;
+      @include media(desktop) {
+        width: 116px;
+        height: 82px;
+      }
+    }
+
+    &__copy {
+      color: $_black_text_color;
+      font-family: $_text_font;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.25;
+      letter-spacing: -0.2px;
+      @include media(desktop) {
+        font-size: 24px;
+        line-height: 1.2;
+        letter-spacing: -0.38px;
+      }
+    }
+
+    &__list {
+      display: flex;
+      gap: 4px;
+      color: $_black_text_color;
+      font-family: $_text_font;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.25;
+      letter-spacing: -0.2px;
+      @include media(desktop) {
+        font-size: 24px;
+        line-height: 1.2;
+        letter-spacing: -0.38px;
+      }
+    }
+  }
+}

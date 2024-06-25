@@ -3,7 +3,6 @@
   left: 0;
   right: 0;
   top: 0;
-  background-color: $_white_bg_color;
 }
 
 .header {
@@ -14,6 +13,8 @@
   padding: 25px 50px;
   margin-left: auto;
   margin-right: auto;
+  background-color: $_white_bg_color;
+  border-radius: 0px 0px 24px 24px;
   @include media(mobile) {
     width: 375px;
   }
