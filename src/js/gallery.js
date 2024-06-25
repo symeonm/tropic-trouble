@@ -1,14 +1,17 @@
 import 'swiper/css';
+// import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 
-const settings = {
+new Swiper('.swiper', {
   direction: 'horizontal',
+
   loop: true,
-  // Navigation arrows
+
+  slidesPerView: 3,
+
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
+    // clickable: true,
   },
-};
-
-const swiper = new Swiper('.swiper-container', settings);
+});
