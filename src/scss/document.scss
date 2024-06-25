@@ -1,0 +1,37 @@
+.document-section.section {
+  padding-top: 114px;
+  @include media(desktop) {
+    padding-top: 140px;
+  }
+}
+
+.document {
+  &__title {
+    color: $_black_text_color;
+    font-family: $_text_font;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.64px;
+    text-align: center;
+    margin-bottom: 20px;
+    @include media(desktop) {
+      font-size: 80px;
+      letter-spacing: -1.28px;
+    }
+  }
+
+  &__text {
+    color: $_black_text_color;
+    font-family: $_text_font;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.32px;
+    text-align: left;
+    @include media(desktop) {
+      font-size: 40px;
+      letter-spacing: -0.64px;
+    }
+  }
+}
