@@ -1,6 +1,6 @@
 import 'swiper/css';
 
-new Swiper('.swiper', {
+new Swiper('#swiper1', {
   direction: 'horizontal',
   centeredSlides: true,
 
@@ -10,8 +10,8 @@ new Swiper('.swiper', {
   slidesPerView: 3,
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '#swiper1 .swiper-button-next',
+    prevEl: '#swiper1 .swiper-button-prev',
     // clickable: true,
   },
 });

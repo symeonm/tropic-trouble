@@ -1,0 +1,99 @@
+.container-reviews {
+  width: 100%;
+}
+
+.reviews-section {
+  border-radius: 24px;
+  background-color: $_green_bg_color;
+  height: 840px;
+  padding: 60px;
+}
+
+#swiper2 .swiper-review {
+  width: 100% !important;
+}
+
+.reviews-section__title {
+  text-align: center;
+  color: #000;
+  font-family: Ubuntu;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: -1.92px;
+}
+
+.review-card {
+  width: 629px !important;
+  height: 500px !important;
+  background-color: $_white_bg_color;
+  padding: 40px;
+  border-radius: 24px;
+  margin-top: 40px;
+}
+
+.user-info {
+  display: flex;
+}
+
+.reviews-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.reviews-name {
+  margin-left: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #000;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1; /* 110% */
+  letter-spacing: -0.64px;
+}
+
+.rating {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.reviews-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  height: 144px;
+  width: 100%;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.reviews-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.button-next {
+  border-radius: 50%;
+  border-color: transparent;
+  padding: 0;
+  background: $_yellow_bg_color;
+  width: 60px;
+  height: 60px;
+}
+
+.arrow {
+  margin-left: auto;
+  margin-right: auto;
+}
