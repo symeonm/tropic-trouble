@@ -24,26 +24,21 @@
   margin-top: 40px;
 }
 
-.swiper-wrapper {
-  gap: 25px;
-}
-
-.swiper-slide {
-  max-width: 284px;
-  max-height: 507px;
-}
-
-.swiper-slide:not(.swiper-slide-next) {
+.swiper-slide:not(.swiper-slide-active) {
   margin-top: 75px;
+  width: 284px !important;
+  height: 507px;
 }
 
 .gallery-img {
   border-radius: 12px;
+  width: 100%;
+  height: 100%;
 }
 
-.swiper-slide-next {
-  min-width: 380px;
-  min-height: 678px;
+.swiper-slide-active {
+  width: 380px !important;
+  height: 678px !important;
 }
 
 .gallery-button {

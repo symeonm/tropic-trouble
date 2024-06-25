@@ -1,10 +1,10 @@
 import 'swiper/css';
-// import 'swiper/css/navigation';
-import 'swiper/css/effect-coverflow';
 
 new Swiper('.swiper', {
   direction: 'horizontal',
+  centeredSlides: true,
 
+  spaceBetween: 25,
   loop: true,
 
   slidesPerView: 3,
