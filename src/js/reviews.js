@@ -3,6 +3,8 @@ import 'swiper/css';
 new Swiper('#swiper2', {
   direction: 'horizontal',
 
+  loop: true,
+
   breakpoints: {
     375: {
       slidesPerView: 1,
