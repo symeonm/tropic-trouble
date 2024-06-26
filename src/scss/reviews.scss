@@ -153,13 +153,18 @@
   }
 }
 
-.button-next {
+.button-style {
   border-radius: 50%;
-  border-color: transparent;
+  border: 5px solid;
+  border-color: #fbec3f;
   padding: 0;
-  background: $_yellow_bg_color;
+  background-color: $_yellow_bg_color;
   width: 60px;
   height: 60px;
+}
+
+.button-style:hover {
+  border-color: #ffb84c;
 }
 
 .arrow {
