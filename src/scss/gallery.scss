@@ -16,13 +16,17 @@
   letter-spacing: -1.92px;
 }
 
-.swiper {
+#swiper1.swiper {
   width: 997px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
 }
+
+// #swiper1 .swiper-wrapper {
+//   max-width: 1288px;
+// }
 
 #swiper1 .swiper-slide:not(.swiper-slide-active) {
   margin-top: 75px;

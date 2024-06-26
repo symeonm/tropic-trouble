@@ -3,6 +3,7 @@ import 'swiper/css';
 new Swiper('#swiper1', {
   direction: 'horizontal',
   centeredSlides: true,
+  // centeredSlidesBounds: true,
 
   spaceBetween: 25,
   loop: true,

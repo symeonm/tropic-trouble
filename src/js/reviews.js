@@ -3,9 +3,17 @@ import 'swiper/css';
 new Swiper('#swiper2', {
   direction: 'horizontal',
 
-  spaceBetween: 25,
+  breakpoints: {
+    375: {
+      slidesPerView: 1,
+      spaceBetween: 25,
+    },
 
-  slidesPerView: 2,
+    1440: {
+      spaceBetween: 25,
+      slidesPerView: 2,
+    },
+  },
 
   navigation: {
     nextEl: '#swiper2 .swiper-button-next',
