@@ -3,6 +3,7 @@
   left: 0;
   right: 0;
   top: 0;
+  z-index: 999;
 }
 
 .header {
@@ -112,7 +113,7 @@
 
   .menu {
     position: absolute;
-    z-index: 5;
+    z-index: 999;
     top: 93px;
     right: 0;
     display: flex;
