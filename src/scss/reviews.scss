@@ -167,6 +167,11 @@
   border-color: #ffb84c;
 }
 
+.button-style:focus {
+  border: none;
+  background-color: #ffb84c;
+}
+
 .arrow {
   margin-left: auto;
   margin-right: auto;
