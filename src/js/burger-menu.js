@@ -8,3 +8,9 @@ function toggleMenu(event) {
   burger.classList.toggle('active');
   mobileMenu.classList.toggle('visually-hidden');
 }
+
+document.querySelectorAll('.burger-link').forEach(link => {
+  link.addEventListener('click', function (e) {
+    mobileMenu.classList.add('visually-hidden');
+  });
+});
