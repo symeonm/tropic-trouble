@@ -11,6 +11,7 @@ function toggleMenu(event) {
 
 document.querySelectorAll('.burger-link').forEach(link => {
   link.addEventListener('click', function (e) {
+    burger.classList.toggle('active');
     mobileMenu.classList.add('visually-hidden');
   });
 });
